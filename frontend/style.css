@@ -33,86 +33,71 @@ select {
 
 /* End of CSS reset */
 
-
-#root {
-
-  background-color: #45ff32;
-}
-
-.container.wrapper{
-
-  background-color: #131517;
-}
-
- #root .container .container {   /*ide kell egy space igy tudunk belemenni */
-  width: 200px;
-  height: 200px;
-}
-
-body{
-  height: 100vh;
-  margin-top: 50vh;
+div{
+  margin:auto;
 }
 
 #cube1{
+  position:fixed;
+  right: 0;
+  bottom: 0;
   width: 400px;
   height: 400px;
   background-color: #CAF0F8;
-  margin: auto;
+
 }
 
 #cube2{
   width: 380px;
   height: 380px;
   background-color: #ADE8F4;
-  margin: auto;
+ 
 }
 
 #cube3{
   width: 360px;
   height: 360px;
   background-color: #90E0EF;
-  margin: auto;
+ 
 }
 
 #cube5{
   width: 340px;
   height: 340px;
   background-color: #00B4D8;
-  margin: auto;
+
 }
 
 #cube6{
   width: 320px;
   height: 320px;
   background-color: #0096C7;
-  margin: auto;
 }
 
 #cube7{
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 300px;
   height: 300px;
   background-color: #0077B6;
-  margin: auto;
+
 }
 
 #cube8{
   width: 280px;
   height: 280px;
   background-color: #023E8A;
-  margin: auto;
 }
 
 #cube9{
   width: 260x;
   height: 260px;
   background-color: #03045E;
-  margin: auto;
 }
 
 #cube10{
   width: 240px;
   height: 240px;
   background-color: #010118;
-  margin: auto;
 }
