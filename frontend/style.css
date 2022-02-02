@@ -54,6 +54,7 @@ section.image-holder img {
   right: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
   object-fit: cover;  /* ez csak akkor ha adtunk width es heigtet */
  /*  background-image:url(switzerland.jpeg) */
 }
@@ -64,7 +65,7 @@ section.image-holder button {
   left: 50%;
   width: 200px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 40px;
   margin: 40px 0;    /* ez azert h legyen eltartas a szeletol */
   transform: translateX(-50%);  /* ez csak sz X tengely */
   background-color: #09CED9;
@@ -79,12 +80,20 @@ section.image-holder h1{
   font-family: 'Roboto', sans-serif;
 }
 
-section.background-holder {
-  padding: 20px;
-  background-clip: content-box;  /* ez levagja az egeszet */
-  background-image: url("switzerland.jpeg");
-  background-size: 200px auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: blue;
+#about {
+  min-height: unset;
+  background-color: #c5c7c9;
 }
+
+#about article{
+  width: 100%;
+  max-width: 400px;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+#about h2{
+  padding-bottom: 20px;
+}
+
+
