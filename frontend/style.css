@@ -96,4 +96,31 @@ section.image-holder h1{
   padding-bottom: 20px;
 }
 
+#services{
+  padding: 80px 0;
+  background-image: url(switzerland.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
 
+#services ul{
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  background-color: rgba(202, 199, 199, 0.9);
+}
+
+#services ul li{
+  padding-bottom: 10px;
+}
+
+#services ul li h2,
+#services ul li p{
+  text-align: center;
+}
+
+#contact{
+  background-color: rgb(253, 226, 184);
+}
