@@ -41,7 +41,7 @@ section.image-holder img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;  /* ez csak akkor ha adtunk width es heigtet */
+  object-fit:contain ;  /* ez csak akkor ha adtunk width es heigtet */
  /*  background-image:url(switzerland.jpeg) */
   
 }
