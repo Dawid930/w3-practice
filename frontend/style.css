@@ -33,20 +33,53 @@ select {
 
 /* End of CSS reset */
 
-section{
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section.image-holder {
   height: 100vh;
+  overflow: hidden;
 }
 
 section.image-holder img {
+  position: absolute;
   display: block;
+  top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
-  object-fit:contain ;  /* ez csak akkor ha adtunk width es heigtet */
+  object-fit: cover;  /* ez csak akkor ha adtunk width es heigtet */
  /*  background-image:url(switzerland.jpeg) */
-  
 }
 
-section.background-holder{
+section.image-holder button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 200px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 40px 0;    /* ez azert h legyen eltartas a szeletol */
+  transform: translateX(-50%);  /* ez csak sz X tengely */
+  background-color: #09CED9;
+}
+
+section.image-holder h1{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 40px;
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+section.background-holder {
   padding: 20px;
   background-clip: content-box;  /* ez levagja az egeszet */
   background-image: url("switzerland.jpeg");
