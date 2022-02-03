@@ -33,9 +33,26 @@ select {
 
 /* End of CSS reset */
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200px;
+  scroll-behavior: smooth;
+
+}
+
+header{
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 99;
+  text-align: center;
+  background-color: white;
 }
 
 section {
@@ -77,13 +94,13 @@ section.image-holder h1{
   top: 0;
   left: 0;
   margin: 40px;
-  margin-right: 360px;     /* hogy tudom beallitasni h ne csusszon el sz miatt responsive-nal? */
+  /* margin-right: 360px;     hogy tudom beallitasni h ne csusszon el sz miatt responsive-nal? */
   font-size: 100px;
   font-family: 'Roboto', sans-serif;
   
 }
 
-#welcome h1 span{
+#welcome h1{
   background-color: rgba(202, 199, 199, 0.9);    /* span nelkul meglehet oldani? */
 }
 
