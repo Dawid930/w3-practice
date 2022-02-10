@@ -24,9 +24,9 @@ function loadEvent(eventObject){
     const listOfSectionElements = document.querySelectorAll("section");
     console.log(listOfSectionElements);
 
-    // rootElement.classList.add("newClass");
+/*     rootElement.classList.add("newClass");
 
-/*     listOfSectionElements[0].classList.add("newClass");
+    listOfSectionElements[0].classList.add("newClass");
     listOfSectionElements[1].classList.add("newClass");
     listOfSectionElements[2].classList.add("newClass");
     listOfSectionElements[3].classList.add("newClass"); */
